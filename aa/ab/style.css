@@ -1,0 +1,21 @@
+.first {
+    border-spacing: 360px;
+    float: left;
+    margin-right: 200px;
+    padding: auto;
+    left: 40%;
+}
+
+.second {
+    border-spacing: 360px;
+    left: 30%;
+    margin-right: 200px;
+    float: left;
+}
+
+.third {
+    border-spacing: 360px;
+    left: 40%;
+    margin-right: 200px;
+    float: left;
+}

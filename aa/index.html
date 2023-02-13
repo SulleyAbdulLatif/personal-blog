@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    < </head>
+
+        <body>
+            <div class="wrapper">
+                <div class="section">
+                    <div class="top_navbar">
+                        <div class="hamburger"><a href="#"><i class="fas fa-bars"></i></a></div>
+                    </div>
+                    <div></div>
+                    <h1>
+                        <p id="blink">WELCOME TO THE DEV BLOG! </p>
+                        <script type="text/javascript">
+                            var blink = document.getElementById('blink');
+                            setInterval(function() {
+                                    blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+                                }
+
+                                , 1000);
+                        </script>
+                    </h1>
+                    <h4>Just hit on the Dashboard and choose what you want </h4>
+                    <div class="search"><input class="srch" name="" placeholder="What are you looking for"><a href="#"><button class="btn">search</button></a></div>
+                    <div class="container">
+                        <li><img src="z5.jpg" height="135px"></li>
+                        <li><img src="z1.jpg" height="150px"></li>
+                        <li><img src="z4.jpg" height="150px"></li>
+                        <div class="addition">
+                            <section class="slideshow">
+                                <div class="content">
+                                    <div class="content-carrousel">
+                                        <figure class="shadow">
+                                            <li><a href="#">Tutorials</a></li><img src="m1.jfif"></a>
+                                        </figure>
+                                        <figure class="shadow">
+                                            <li><a href="#">pdf</a></li><img src="m2.jfif"></figure>
+                                        <figure class="shadow">
+                                            <li><a href="#">notes</a></li><img src="m3.png"></figure>
+                                        <figure class="shadow">
+                                            <li><a href="#">source code</a></li><img src="m4.jfif"></figure>
+                                        <figure class="shadow">
+                                            <li><a href="#">project</a></li><img src="m5.jfif"></figure>
+                                        <figure class="shadow">
+                                            <li><a href="#">Others</a></li><img src="m6.png"></figure>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="sidebar">
+                        <div class="profile"><img src="LAT3.jpg">
+                            <h3>Sulley Abdul Latif</h3>
+                            <p>programmer</p>
+                        </div>
+                        <ul>
+                            <li><a href="#" class="active"><span class="icon"><i class="fas fa-home"></i></span><span class="item">Home</span></a></li>
+                            <li><a href="ab/index.html"><span class="icon"><i class="fas fa-desktop"></i></span><span class="item">My Dashboard</span></a></li>
+                            <li><a href="People/index.html"><span class="icon"><i class="fas fa-user-friends"></i></span><span class="item">People</span></a></li>
+                            <li><a href="con2.jfif"><span class="icon"><i class="fas fa-tachometer-alt"></i></span><span class="item">Perfomance</span></a></li>
+                            <li><a href="con3.jfif"><span class="icon"><i class="fas fa-database"></i></span><span class="item">Development</span></a></li>
+                            <li><a href="con2.jfif"><span class="icon"><i class="fas fa-chart-line"></i></span><span class="item">Reports</span></a></li>
+                            <li><a href="con3.jfif"><span class="icon"><i class="fas fa-user-shield"></i></span><span class="item">Admin</span></a></li>
+                            <li><a href="con3.jfif"><span class="icon"><i class="fas fa-cog"></i></span><span class="item">Settings</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <script>
+                    var hamburger = document.querySelector(".hamburger");
+                    hamburger.addEventListener("click", function() {
+                            document.querySelector("body").classList.toggle("active");
+                        }
+
+                    )
+                </script>
+        </body>
+        <footer>
+            <div class="row primary">
+                <div class="column about">
+                    <h3>Logic Dev</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptatem corporis error non,
+                    </p>
+                    <div class="social"><a href="www.facebook.com"><i class="fa-brands fa-facebook-square"></i></a><a href="www.instagram.com"><i class="fa-brands fa-instagram-square"></i></a><a href="www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="www.youtube.com"><i class="fa-brands fa-youtube-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp-square"></i></a>
+                        <i class="fa-brands fa-linkedin-square"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="column links">
+                <h3>Some Links</h3>
+                <ul>
+                    <li><a href="#faq">F.A.Q</a></li>
+                    <li><a href="#cookies-policy">Cookies Policy</a></li>
+                    <li><a href="#terms-of-services">Terms Of Service</a></li>
+                    <li><a href="#support">Support</a></li>
+                </ul>
+            </div>
+            <div class="column subscribe">
+                <h3>Newsletter</h3>
+                <div><input type="email" placeholder="Your email id here" /><button>Subscribe</button></div>
+            </div>
+            <div class="row copyright">
+                <div class="footer-menu"><a href="">Home</a><a href="www.facebook.com">About</a><a href="0591507448">Contact</a><a href="www.foolishdeveloper.com">Blog</a><a href="https://www.facebook.com/latif.sulley.12">Social</a></div>
+                <p>Copyright &copy; 2022 Mr. Logic</p>
+            </div>
+
+        </footer>
+
+</html>
